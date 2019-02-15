@@ -31,11 +31,11 @@ async def on_message(message):
     if message.content == 'C':
         await client.send_message(message.channel,'Price of both national and international is 80.Do you Want?3 for yes and 4 for no')
     if message.content == 'No':
-        await client.send_message(message.channel,'ok no problem ')
+        await client.send_message(message.channel,'ok no problem u can contact us anytime ')
     if message.content == '2':
-        await client.send_message(message.channel,'ok no problem ')
+        await client.send_message(message.channel,'ok no problem u can contact us anytime ')
     if message.content == '4':
-        await client.send_message(message.channel,'ok no problem ')
+        await client.send_message(message.channel,'ok no problem u can contact us anytime  ')
     if message.content == 'Yes':
         em = discord.Embed(description='')
         em.set_image(url='https://media.discordapp.net/attachments/545865168966647820/545875046904889345/1549700503301-1.jpg?width=168&height=301')
@@ -55,7 +55,7 @@ async def on_message(message):
     if message.content == '3':
         await client.send_message(message.channel,'Pay Rs80 on this code and give screenshot in #:atm:payment-proof:atm:')
     if message.content == 'help':
-        await client.send_message(message.channel,'hello..this bot helps you to buy our access of answers of all trivia just type Subscribe')
+        await client.send_message(message.channel,'Hello:blush:..This bot helps you to buy our access of answers of all trivia just type- Subscribe')
     if message.content == 'Subscribe':
         await client.send_message(message.channel,'Thank you for contacting our subscription bot:blush: :blush: Please select one of the packages: :regional_indicator_a:For Only Indian subcription :regional_indicator_b:For international subscription :regional_indicator_c: For Both indain and international')
 client.run('NTQ1ODYyNTM3OTIxNDI5NTA1.D0gOpg.omq36xbU1m8EpRth-HL1uOKWCZI')
