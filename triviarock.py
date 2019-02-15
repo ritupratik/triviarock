@@ -55,7 +55,7 @@ async def on_message(message):
     if message.content == '3':
         await client.send_message(message.channel,'Pay Rs80 on this code and give screenshot in #:atm:payment-proof:atm:')
     if message.content == 'help':
-        await client.send_message(message.channel,'hello..this bot helps you to buy our access of answers of all trivia just type subscribe')
-    if message.content == 'subscribe':
+        await client.send_message(message.channel,'hello..this bot helps you to buy our access of answers of all trivia just type Subscribe')
+    if message.content == 'Subscribe':
         await client.send_message(message.channel,'Thank you for contacting our subscription bot:blush: :blush: Please select one of the packages: :regional_indicator_a:For Only Indian subcription :regional_indicator_b:For international subscription :regional_indicator_c: For Both indain and international')
 client.run('NTQ1ODYyNTM3OTIxNDI5NTA1.D0gOpg.omq36xbU1m8EpRth-HL1uOKWCZI')
