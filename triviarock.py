@@ -49,11 +49,11 @@ async def on_message(message):
         em.set_image(url='https://media.discordapp.net/attachments/545865168966647820/545875046904889345/1549700503301-1.jpg?width=168&height=301')
         await client.send_message(message.channel, embed=em)
     if message.content == 'Yes':
-        await client.send_message(message.channel,'Pay Rs50 on this code and give screenshot in #payment proof')
+        await client.send_message(message.channel,'Pay Rs50 on this code and give screenshot in #:atm:payment-proof:atm:')
     if message.content == '1':
-        await client.send_message(message.channel,'Pay Rs30 on this code and give screenshot in #payment proof')
+        await client.send_message(message.channel,'Pay Rs30 on this code and give screenshot in #:atm:payment-proof:atm:')
     if message.content == '3':
-        await client.send_message(message.channel,'Pay Rs80 on this code and give screenshot in #payment proof')
+        await client.send_message(message.channel,'Pay Rs80 on this code and give screenshot in #:atm:payment-proof:atm:')
     if message.content == 'help':
         await client.send_message(message.channel,'hello..this bot helps you to buy our access of answers of all trivia just type subscribe')
     if message.content == 'subscribe':
