@@ -51,10 +51,10 @@ async def on_message(message):
     if message.content == 'Yes':
         await client.send_message(message.channel,'Pay Rs50 on this code Or pay on this link https://p-y.tm/r-axjmc and give screenshot in #:moneybag:payment-proof:moneybag:')
     if message.content == '1':
-        await client.send_message(message.channel,'Pay Rs30 on this code and give screenshot in #:moneybag:payment-proof:moneybag:')
+        await client.send_message(message.channel,'Pay ₹30 on this code or click https://p-y.tm/BfY-er2 to pay and give screenshot in #:moneybag:payment-proof:moneybag:')
     if message.content == '3':
-        await client.send_message(message.channel,'Pay Rs75 on this code and give screenshot in #:moneybag:payment-proof:moneybag:')
-    if message.content == 'help':
+        await client.send_message(message.channel,'Pay ₹75 on this code OR Click https://p-y.tm/gaK-1cU and give screenshot in #:moneybag:payment-proof:moneybag:')
+    if message.content == 'Help':
         await client.send_message(message.channel,'Hello:blush:..This bot helps you to buy our access of answers of all trivia just type- Subscribe')
     if message.content == 'Subscribe':
         await client.send_message(message.channel,'Thank you for contacting our subscription bot:blush: :blush: Please select one of the packages: :regional_indicator_a:For Only Indian subcription :regional_indicator_b:For international subscription :regional_indicator_c: For Both indain and international')
