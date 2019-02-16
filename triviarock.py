@@ -51,8 +51,8 @@ async def on_message(message):
         em.set_image(url='https://media.discordapp.net/attachments/545865168966647820/545875046904889345/1549700503301-1.jpg?width=168&height=301')
         await client.send_message(message.channel, embed=em)
     if message.content == 'loco1.30':
-        em = discord.Embed(description='https://cdn.discordapp.com/attachments/545865168966647820/546194268092628993/IMG_1550287461263.jpg')
-        em.set_image(url='')
+        em = discord.Embed(description='')
+        em.set_image(url='https://cdn.discordapp.com/attachments/545865168966647820/546194268092628993/IMG_1550287461263.jpg')
         await client.send_message(message.channel, embed=em)
     if message.content == 'Yes':
         await client.send_message(message.channel,'Pay Rs50 on this code Or pay on this link https://p-y.tm/r-axjmc and give screenshot in #:moneybag:payment-proof:moneybag:')
