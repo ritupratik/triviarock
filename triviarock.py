@@ -36,6 +36,8 @@ async def on_message(message):
         await client.send_message(message.channel,'ok no problem u can contact us anytime ')
     if message.content == '4':
         await client.send_message(message.channel,'ok no problem u can contact us anytime  ')
+    if message.content == 'Done':
+        await client.send_message(message.channel,'ok now post your screenshot in #:moneybag:payment-proof:moneybag: our admin will verify and add you ')
     if message.content == 'Yes':
         em = discord.Embed(description='')
         em.set_image(url='https://media.discordapp.net/attachments/545865168966647820/545875046904889345/1549700503301-1.jpg?width=168&height=301')
