@@ -29,7 +29,7 @@ async def on_message(message):
     if message.content == 'B':
         await client.send_message(message.channel,'Price of international is 30.Do you Want?1 for yes and 2 for no')
     if message.content == 'C':
-        await client.send_message(message.channel,'Price of both national and international is 80.Do you Want?3 for yes and 4 for no')
+        await client.send_message(message.channel,'Price of both national and international is 75.Do you Want?3 for yes and 4 for no')
     if message.content == 'No':
         await client.send_message(message.channel,'ok no problem u can contact us anytime ')
     if message.content == '2':
@@ -49,11 +49,11 @@ async def on_message(message):
         em.set_image(url='https://media.discordapp.net/attachments/545865168966647820/545875046904889345/1549700503301-1.jpg?width=168&height=301')
         await client.send_message(message.channel, embed=em)
     if message.content == 'Yes':
-        await client.send_message(message.channel,'Pay Rs50 on this code and give screenshot in #:atm:payment-proof:atm:')
+        await client.send_message(message.channel,'Pay Rs50 on this code Or pay on this link https://p-y.tm/r-axjmc and give screenshot in #:moneybag:payment-proof:moneybag:')
     if message.content == '1':
-        await client.send_message(message.channel,'Pay Rs30 on this code and give screenshot in #:atm:payment-proof:atm:')
+        await client.send_message(message.channel,'Pay Rs30 on this code and give screenshot in #:moneybag:payment-proof:moneybag:')
     if message.content == '3':
-        await client.send_message(message.channel,'Pay Rs80 on this code and give screenshot in #:atm:payment-proof:atm:')
+        await client.send_message(message.channel,'Pay Rs75 on this code and give screenshot in #:moneybag:payment-proof:moneybag:')
     if message.content == 'help':
         await client.send_message(message.channel,'Hello:blush:..This bot helps you to buy our access of answers of all trivia just type- Subscribe')
     if message.content == 'Subscribe':
