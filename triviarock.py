@@ -21,7 +21,7 @@ async def on_member_join(member):
 
 @client.event    
 async def on_ready():
-    await client.change_presence(game=Game(name="subscription proccess||Help, type=3"))
+    await client.change_presence(game=Game(name="subscription proccess||Help", type = 3))
     print('Ready, Freddy') 
 
 
