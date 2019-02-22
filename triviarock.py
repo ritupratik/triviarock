@@ -20,8 +20,12 @@ async def on_member_join(member):
     
     
 @client.command(pass_context=True)
-async def help(ctx):author = ctx.message.author
-    embed = discord.Embed(colour = discord.Colour.green())
+async def help(ctx):
+    author = ctx.message.author
+
+    embed = discord.Embed(
+        colour = discord.Colour.green()
+    )
     embed.add_field(name='How may i help you?', value=' ')
     await client.send_message(author, embed=embed)
     embed = discord.Embed(description=" ", color=0xFFFF)
