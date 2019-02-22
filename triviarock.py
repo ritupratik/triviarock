@@ -18,6 +18,12 @@ async def on_member_join(member):
     await client.send_message(member, 'hello...purchase the subscription quickly and easily just do what bot says')
     print('Sent message to ' + member.name)
     
+   
+@client.event    
+async def on_ready():
+    await client.change_presence(game=Game(name="subscription proccess||Help", type = 3))
+    print('Ready, Freddy') 
+    
     
 @client.command(pass_context=True)
 async def help(ctx):
@@ -32,14 +38,8 @@ async def help(ctx):
     embed.add_field(name="Done!", value="I have sent you help to your dms",inline=True)
     await client.say(embed=embed)
     await client.send_message(channel, embed=embed)
+
     
-   
-@client.event    
-async def on_ready():
-    await client.change_presence(game=Game(name="subscription proccess||Help", type = 3))
-    print('Ready, Freddy') 
-
-
 @client.event
 async def on_message(message):
     if message.content == 'A':
