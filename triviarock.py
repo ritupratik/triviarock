@@ -82,4 +82,4 @@ async def on_message(message):
         await client.send_message(message.channel,'Hello:blush:..This bot helps you to buy our access of answers of all trivia just type- Subscribe')
     if message.content == 'Subscribe':
         await client.send_message(message.channel,'Thank you for contacting our subscription bot:blush: :blush: Please select one of the packages: :regional_indicator_a:For Only Indian subcription :regional_indicator_b:For international subscription :regional_indicator_c: For Both indain and international')
-client.run('NTQ1ODYyNTM3OTIxNDI5NTA1.D0gOpg.omq36xbU1m8EpRth-HL1uOKWCZI')
+client.run('NTQ1ODYyNTM3OTIxNDI5NTA1.D1EtHg.QbUUWITau7W42qcsx4Oskvxz1qE')
