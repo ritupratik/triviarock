@@ -23,21 +23,6 @@ async def on_member_join(member):
 async def on_ready():
     await client.change_presence(game=Game(name="subscription proccess||Help", type = 3))
     print('Ready, Freddy') 
-    
-    
-@client.command(pass_context=True)
-async def help(ctx):
-    author = ctx.message.author
-
-    embed = discord.Embed(
-        colour = discord.Colour.green()
-    )
-    embed.add_field(name='How may i help you?', value=' ')
-    await client.send_message(author, embed=embed)
-    embed = discord.Embed(description=" ", color=0xFFFF)
-    embed.add_field(name="Done!", value="I have sent you help to your dms",inline=True)
-    await client.say(embed=embed)
-    await client.send_message(channel, embed=embed)
 
     
 @client.event
