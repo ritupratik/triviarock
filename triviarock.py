@@ -29,7 +29,7 @@ async def help(ctx):
     embed.add_field(name='How may i help you?', value=' ')
     await client.send_message(author, embed=embed)
     embed = discord.Embed(description=" ", color=0xFFFF)
-    embed.add_field(name="Done!", value="I've sent you help to your dms",inline=True)
+    embed.add_field(name="Done!", value="I have sent you help to your dms",inline=True)
     await client.say(embed=embed)
     await client.send_message(channel, embed=embed)
     
